@@ -1,0 +1,25 @@
+langchain
+langchain-core
+langchain-openai
+openai
+langchain-google-genai
+google-generativeai
+langchain-huggingface
+transformers
+huggingface-hub
+python-dotenv
+numpy
+pandas
+scikit-learn
+streamlit
+youtube_transcript_api
+
+langchain-community
+langchain-text-splitters
+langchain-chroma
+
+chromadb
+sentence-transformers
+
+# conda install -c conda-forge pytorch=2.8 --force-reinstall 
+#use above command to install the pytorch greater than

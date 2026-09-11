@@ -1,0 +1,52 @@
+# Python virtual environments
+ragvenv/
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Python cache and build artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local application data and vector stores
+db/
+*.sqlite
+*.sqlite3
+*.db
+chroma/
+
+# Logs and local runtime output
+*.log
+logs/
+
+# IDE and editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

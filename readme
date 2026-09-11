@@ -1,0 +1,23 @@
+# YouTube RAG Chatbot
+
+## Features
+- YouTube video transcript extraction
+- Text chunking
+- Embeddings
+- Vector database
+- RAG-based question answering
+- Streamlit UI
+
+## Technologies
+- Python
+- LangChain
+- Gemini
+- ChromaDB
+- Hugging Face
+- Streamlit
+
+## Installation
+
+## How to Run
+
+## Environment Variables
